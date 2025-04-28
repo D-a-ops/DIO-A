@@ -64,7 +64,7 @@ Kekurangan:
 - Kompleksitas Sistem: Sistem pengelolaan memori dan konsistensi cache lebih rumit dibandingkan multiple processor biasa.
 
 3. Ilustrasi Konsep dalam Gambar
-Multiple Processor:
+ Multiple Processor:
 - CPU 1 dan CPU 2 terhubung ke memori utama dan perangkat I/O melalui satu bus bersama. Semua sumber daya digunakan secara bergantian.
 
 Symmetric Multiprocessor (SMP):
