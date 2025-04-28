@@ -72,6 +72,21 @@ Symmetric Multiprocessor (SMP):
 - CPU A, CPU B, dan CPU C masing-masing memiliki cache sendiri untuk mempercepat proses, dan bersama-sama berbagi akses ke memori utama melalui jalur komunikasi yang lebih 
   efektif.
 
+Kesimpulan
+
+- Pada Multiple Processor, semua CPU berbagi satu jalur komunikasi (bus) untuk mengakses memori utama dan perangkat I/O. Struktur ini sederhana, tetapi menyebabkan 
+  bottleneck jika banyak CPU aktif bersamaan. Skalabilitasnya terbatas dan kinerjanya dapat turun seiring bertambahnya jumlah CPU.
+
+- Sedangkan pada Symmetric Multiprocessor (SMP), setiap CPU dilengkapi dengan cache lokal yang mempercepat akses data. Arsitektur ini memungkinkan distribusi kerja antar 
+  CPU yang lebih seimbang, mengurangi tekanan pada memori utama, dan meningkatkan performa serta skalabilitas sistem secara keseluruhan.
+
+Secara umum:
+
+- Multiple Processor cocok untuk sistem sederhana dengan jumlah CPU terbatas.
+
+- SMP lebih unggul dalam sistem yang membutuhkan performa tinggi dan jumlah CPU yang lebih banyak, walaupun memerlukan biaya dan pengelolaan yang lebih kompleks.
+
+Dengan berkembangnya teknologi, SMP menjadi arsitektur yang lebih umum digunakan pada komputer modern, server, dan workstation untuk mendukung aplikasi multitasking dan komputasi paralel secara efisien.
 
 
 tata cara :
