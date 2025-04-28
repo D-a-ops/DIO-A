@@ -1,45 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?><mxfile host="app.diagrams.net">
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
   <diagram name="Multiple Processor and SMP Architecture" id="diagram1">
     <mxGraphModel dx="827" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
-        <mxCell id="1" parent="0" /><!-- Multiple Processor Architecture -->
-    <mxCell id="2" value="Multiple Processor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
-      <mxGeometry x="20" y="20" width="200" height="40" as="geometry" />
-    </mxCell>
+        <mxCell id="1" parent="0" />
+        
+        <!-- Multiple Processor Architecture -->
+        <mxCell id="2" value="Multiple Processor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="200" height="40" as="geometry" />
+        </mxCell>
 
-    <mxCell id="3" value="CPU 1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
-      <mxGeometry x="20" y="80" width="80" height="40" as="geometry" />
-    </mxCell>
-    <mxCell id="4" value="CPU 2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
-      <mxGeometry x="140" y="80" width="80" height="40" as="geometry" />
-    </mxCell>
-    <mxCell id="5" value="Shared Bus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" vertex="1" parent="1">
-      <mxGeometry x="80" y="140" width="80" height="30" as="geometry" />
-    </mxCell>
+        <mxCell id="3" value="CPU 1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="CPU 2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="140" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Shared Bus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
 
-    <mxCell id="6" edge="1" parent="1" source="3" target="5" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;strokeColor=#000000;"/>
-    <mxCell id="7" edge="1" parent="1" source="4" target="5" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;strokeColor=#000000;"/>
+        <mxCell id="6" edge="1" parent="1" source="3" target="5" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;strokeColor=#000000;"/>
+        <mxCell id="7" edge="1" parent="1" source="4" target="5" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;strokeColor=#000000;"/>
 
-    <!-- Symmetric Multiprocessor Architecture -->
-    <mxCell id="8" value="Symmetric Multiprocessor (SMP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
-      <mxGeometry x="300" y="20" width="250" height="40" as="geometry" />
-    </mxCell>
+        <!-- Symmetric Multiprocessor Architecture -->
+        <mxCell id="8" value="Symmetric Multiprocessor (SMP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="250" height="40" as="geometry" />
+        </mxCell>
 
-    <mxCell id="9" value="CPU 1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
-      <mxGeometry x="300" y="80" width="80" height="40" as="geometry" />
-    </mxCell>
-    <mxCell id="10" value="CPU 2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
-      <mxGeometry x="470" y="80" width="80" height="40" as="geometry" />
-    </mxCell>
-    <mxCell id="11" value="Shared Memory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
-      <mxGeometry x="385" y="140" width="80" height="40" as="geometry" />
-    </mxCell>
+        <mxCell id="9" value="CPU 1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="300" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="CPU 2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="470" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Shared Memory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="385" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
 
-    <mxCell id="12" edge="1" parent="1" source="9" target="11" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;strokeColor=#000000;"/>
-    <mxCell id="13" edge="1" parent="1" source="10" target="11" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;strokeColor=#000000;"/>
-  </root>
-</mxGraphModel>
-
+        <mxCell id="12" edge="1" parent="1" source="9" target="11" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;strokeColor=#000000;"/>
+        <mxCell id="13" edge="1" parent="1" source="10" target="11" style="edgeStyle=elbowEdgeStyle;rounded=1;html=1;strokeColor=#000000;"/>
+      </root>
+    </mxGraphModel>
   </diagram>
 </mxfile>
