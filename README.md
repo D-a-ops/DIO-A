@@ -1,14 +1,5 @@
-Microprosessor.drawio
-Multiprocessor Architecture Diagrams
-  Deskripsi
-Repository ini berisi diagram arsitektur untuk:
+Pengertian Multiprosesor Simetris (Symmetric Multiprocessing / SMP)
+Multiprosesor Simetris (SMP) adalah sistem komputer dengan beberapa prosesor yang setara dan berbagi akses ke memori utama dan perangkat input/output.
+Semua prosesor bekerja sama dan bisa mengakses seluruh sumber daya secara seimbang tanpa ada hierarki (tidak ada "master" atau "slave").
+SMP digunakan untuk meningkatkan kecepatan, keandalan, dan efisiensi sistem, terutama dalam pemrosesan multitasking atau aplikasi berat.
 
-Multiple Processor Architecture (Master-Slave Model)
-Symmetric Multiprocessor Architecture (Shared Bus Model)
-Diagram dibuat menggunakan draw.io untuk memvisualisasikan hubungan antar CPU, Memory, dan I/O dalam kedua model multiprosesor.
-
-   Cara Membuka Diagram
-Buka draw.io.
-Pilih File → Import From → Device.
-Upload file Multiprocessor Architecture.drawio.
-Diagram siap untuk diedit atau dilihat!
