@@ -1,4 +1,4 @@
-Perbandingan Arsitektur Multiple Processor dan Symmetric Multiprocessor (SMP)
+   Arsitektur Multiple Processor dan Symmetric Multiprocessor (SMP)
 1. Arsitektur Multiple Processor
 Deskripsi Umum:
 
