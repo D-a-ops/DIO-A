@@ -2,11 +2,11 @@ Perbandingan Arsitektur Multiple Processor dan Symmetric Multiprocessor (SMP)
 1. Arsitektur Multiple Processor
 Deskripsi Umum:
 
-Merupakan sistem yang terdiri dari dua atau lebih CPU yang bekerja bersama-sama.
+-Merupakan sistem yang terdiri dari dua atau lebih CPU yang bekerja bersama-sama.
 
-Setiap CPU terhubung melalui satu jalur komunikasi (bus) menuju shared memory dan perangkat I/O.
+-Setiap CPU terhubung melalui satu jalur komunikasi (bus) menuju shared memory dan perangkat I/O.
 
-Semua CPU berbagi memori dan perangkat input/output.
+-Semua CPU berbagi memori dan perangkat input/output.
 
 Ciri-Ciri:
 
