@@ -35,6 +35,5 @@ gambar diagram
 
 
 
-![file draw io drawio](https://github.com/user-attachments/assets/6f5ea0e8-1071-4367-bae8-0cb96a08053b)
 
 
