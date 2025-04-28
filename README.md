@@ -12,5 +12,6 @@ Pilih File → Import From → Device
 Upload file XML ini.
 
 gambar diagram
-![Diagram Tanpa Judul drawio](https://github.com/user-attachments/assets/0bae732c-6e96-44ef-b222-fd522e1c4eb1)
+![file draw io drawio](https://github.com/user-attachments/assets/6f5ea0e8-1071-4367-bae8-0cb96a08053b)
+
 
